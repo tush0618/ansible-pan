@@ -70,6 +70,11 @@ options:
             - list of destination addresses
         required: false
         default: ["any"]
+    to_interface:
+        description:
+            - destination interface
+        required: false
+        default: ["any"]    
     service:
         description:
             - service
